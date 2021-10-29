@@ -1,0 +1,9 @@
+//https://teachablemachine.withgoogle.com/models/w-yp17GGZ/model.json
+Webcam.set({
+    height:350,
+    width:350,
+    image_format:"png",
+    png_quality:100
+})
+camera=document.getElementById("camera");
+Webcam.attach(camera);
